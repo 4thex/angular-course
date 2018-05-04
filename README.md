@@ -1,6 +1,10 @@
 # angular-course
 To run the app use the following command:  
+Version 5:
 ```ng serve --host $IP --port $PORT --public $C9_HOSTNAME```  
+
+Version 6:
+```ng serve --host $IP --port $PORT --public-host $C9_HOSTNAME```  
 
 Browse to the app on:  
 ```https://udemy-angular-course-fourthex.c9users.io/```

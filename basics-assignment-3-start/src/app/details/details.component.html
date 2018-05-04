@@ -1,0 +1,9 @@
+<button 
+    class="btn btn-primary" 
+    (click)="onClicked()">{{detailsVisible?'Hide':'Display'}} Details</button>
+<p *ngIf="detailsVisible">Secret Password = tuna</p>
+<p *ngFor="let item of items" 
+    [ngStyle]="item.index>=4?{'background-color': 'blue'}:{}"
+    [ngClass]="{'moreThan4': item.index>=4}">
+    [{{item.index}}] {{item.action}} at {{item.when}}
+</p>
