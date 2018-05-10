@@ -1,9 +1,10 @@
 # angular-course
 To run the app use the following command:  
-Version 5:
+Version 5:  
 ```ng serve --host $IP --port $PORT --public $C9_HOSTNAME```  
 
-Version 6:
+Version 6:  
+```nvm use 10```  
 ```ng serve --host $IP --port $PORT --public-host $C9_HOSTNAME```  
 
 Browse to the app on:  
